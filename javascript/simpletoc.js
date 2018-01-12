@@ -174,5 +174,5 @@ function diyStyle(divID)
         addNewStyle('#' + divID + ' .TOCLevel' + i + ' { margin-left: ' + k + 'em;}');
     }
     //addNewStyle('#'+divID+' { width: 200px;max-height: 100%;overflow: auto;margin-left: 50%;position: fixed;border: 1px solid #ccc;webkit-border-radius: 6px;moz-border-radius: 6px;border-radius: 12px;padding: 0.8em;');
-    addNewStyle('#' + divID + ' {float:right;margin:0 0 1em 1em;position:fixed;top:100px;right:50px;border: 1px solid #ccc;webkit-border-radius: 6px;moz-border-radius: 6px;border-radius: 12px;padding: 0.8em;}');
+    addNewStyle('#' + divID + ' {float:right;margin:0 0 1em 1em;position:fixed;top:30px;right:30px;border: 1px solid #ccc;webkit-border-radius: 6px;moz-border-radius: 6px;border-radius: 12px;padding: 0.8em;}');
 }
