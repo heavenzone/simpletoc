@@ -1,0 +1,77 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <script src="../javascript/simpletoc.js" type="text/javascript">
+</script>
+  <script type="text/javascript">
+//<![CDATA[
+        var firstLvl = 2; // h2开始
+        var lastLvl = 4;  // h4结束
+        var divID = "TOC";
+        var divToSearch = "articles";
+        window.onload=function(){
+                //参数控制
+                // 参数一：起始level，默认为h2
+                // 参数二：末位Level，默认为h3
+                // 参数三：用于生成toc的divID，默认为TOC
+                // 参数四：搜索headlines的divID
+                toc(firstLvl, lastLvl, divID, divToSearch);
+                diyStyle(divID);
+                addNewStyle('.TOCSectNum {margin-right: 0.5em;}');
+        }
+  //]]>
+  </script>
+
+  <title>simpletoc example</title>
+</head>
+
+<body>
+  <div id="TOC"></div>
+
+  <h1>H1文档大标题</h1>
+
+  <h2>H2--副标题-测试toc</h2>
+
+  <div id="toc"></div>
+
+  <div id="articles">
+    <h1>articles测试标题二</h1>
+
+    <h2>测试标题二articles</h2>
+
+    <h3>测试标题二</h3>
+
+    <h3>测试标题二</h3>
+
+    <h4>测试标题二</h4>
+
+    <h5>测试标题二</h5>
+
+    <h6>测试标题二</h6>
+
+    <h3>测试标题二</h3>
+
+    <h6>测试标题二</h6>
+
+    <h2>测试标题四articles</h2>
+
+    <h3>测试标题二</h3>
+
+    <h3>测试标题二</h3>
+
+    <h3>测试标题五</h3>
+
+    <h1>articles测试标题二</h1>
+
+    <h2>测试标题二articles</h2>
+
+    <h3>测试标题二</h3>
+
+    <h4>测试标题二</h4>
+
+    <h5>测试标题二</h5>
+
+    <h6>测试标题二</h6>
+  </div><!-- End articles div -->
+</body>
+</html>
